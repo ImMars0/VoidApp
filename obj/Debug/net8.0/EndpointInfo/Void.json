@@ -26,6 +26,13 @@
             }
           },
           {
+            "name": "confirmpassword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
             "name": "email",
             "in": "query",
             "schema": {

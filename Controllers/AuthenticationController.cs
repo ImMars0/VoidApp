@@ -25,12 +25,21 @@ namespace Auth.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(string username, string password, string email)
+        public IActionResult Register(string username, string password, string confirmpassword, string email)
         {
 
 
             var user = new User { UserName = username, Password = password, Email = email };
             _userRepository.AddUser(user);
+
+            try
+            {
+                _authenticationService.Register(username, password, confirmpassword, email);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
             return Ok($"User {username} registered successfully");
         }

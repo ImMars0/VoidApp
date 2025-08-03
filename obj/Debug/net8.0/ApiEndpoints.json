@@ -59,6 +59,11 @@
         "IsRequired": false
       },
       {
+        "Name": "confirmpassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "email",
         "Type": "System.String",
         "IsRequired": false
