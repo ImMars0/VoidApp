@@ -93,22 +93,6 @@
   },
   {
     "ContainingType": "user.Controllers.UserController",
-    "Method": "Add",
-    "RelativePath": "api/User",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "user.Models.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "user.Controllers.UserController",
     "Method": "GetById",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",

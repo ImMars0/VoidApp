@@ -2,6 +2,8 @@
 using user.Models;
 
 
+
+
 namespace Void.Repositories
 {
     public class UserRepository
@@ -18,7 +20,7 @@ namespace Void.Repositories
             return _context.Users.ToList();
         }
 
-        public User GetUserByUsername(string username)
+        public User? GetUserByUsername(string username)
         {
             return _context.Users.FirstOrDefault(u => u.UserName == username);
         }
@@ -59,10 +61,17 @@ namespace Void.Repositories
         {
             return _context.Users.Any(u => u.UserName == username);
         }
+        public bool EmailExists(string email)
+        {
+            return _context.Users.Any(u => u.Email == email);
+        }
 
         public bool ValidateUser(string username, string password)
         {
-            return _context.Users.Any(u => u.UserName == username && u.Password == password);
+            var user = _context.Users
+                .FirstOrDefault(u => u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
+
+            return user != null && BCrypt.Net.BCrypt.EnhancedVerify(password, user.Password);
         }
 
         public List<User> FindByName(string name)

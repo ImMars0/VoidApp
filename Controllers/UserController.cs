@@ -41,28 +41,6 @@ namespace user.Controllers
         }
 
 
-
-        [HttpPost]
-        public ActionResult Add([FromBody] User user)
-        {
-            if (user == null)
-            {
-                return BadRequest("User name is required");
-            }
-
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            _userService.AddUser(user);
-            return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
-        }
-
-
-
-
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] User updateUser)
         {

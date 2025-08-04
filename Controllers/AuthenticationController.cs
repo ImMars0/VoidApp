@@ -27,35 +27,31 @@ namespace Auth.Controllers
         [HttpPost("register")]
         public IActionResult Register(string username, string password, string confirmpassword, string email)
         {
-
-
-            var user = new User { UserName = username, Password = password, Email = email };
-            _userRepository.AddUser(user);
-
             try
             {
                 _authenticationService.Register(username, password, confirmpassword, email);
+
+                var user = new User { UserName = username, Password = password, Email = email };
+
+                return Ok($"User {username} registered successfully");
             }
             catch (ArgumentException ex)
             {
                 return BadRequest(ex.Message);
             }
-
-            return Ok($"User {username} registered successfully");
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(string username, string password)
         {
-            if (_userRepository.UserExists(username) && _userRepository.ValidateUser(username, password))
+            if (_authenticationService.Login(username, password))
             {
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, username)
                 };
 
-                var identity = new ClaimsIdentity(claims,
-                    CookieAuthenticationDefaults.AuthenticationScheme);
+                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
                 await HttpContext.SignInAsync(
                     CookieAuthenticationDefaults.AuthenticationScheme,
@@ -66,6 +62,8 @@ namespace Auth.Controllers
             return Unauthorized("Invalid credentials");
         }
 
+        public record LoginRequest(string Username, string Password, bool RememberMe = false);
+
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
@@ -74,11 +72,13 @@ namespace Auth.Controllers
         }
 
         [HttpGet("check")]
-        public IActionResult CheckAuth()
+        public ActionResult CheckAuth()
         {
             if (User.Identity.IsAuthenticated)
+
                 return Ok($"Hello {User.Identity.Name}");
             return Unauthorized();
+
         }
     }
 }
