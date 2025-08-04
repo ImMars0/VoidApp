@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ioana\\source\\repos\\Void\\",
+  "WorkspaceRootPath": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|c:\\users\\ioana\\source\\repos\\void\\backend\\database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7BE1F11-A3D2-430C-9548-B24B155A484C}|Void.csproj|solutionrelative:database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,27 +58,28 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Services\\AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T06:36:14.441Z"
+              "WhenOpened": "2025-08-01T06:36:14.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAA+wEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,24 +87,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T06:43:14.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T06:43:14.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Startup.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwB0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\Database\\DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Database\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "Database\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\Database\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\ioana\\source\\repos\\Void\\backend\\Database\\DatabaseContext.cs",
               "RelativeToolTip": "Database\\DatabaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

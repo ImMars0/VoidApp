@@ -36,6 +36,9 @@ function NavButtons() {
       <Link to="/signup">
         <button disabled={location.pathname === "/signup"}>Sign Up</button>
       </Link>
+      <Link to="/login">
+        <button disabled={location.pathname === "/login"}>Login</button>
+      </Link>
     </nav>
   );
 }
