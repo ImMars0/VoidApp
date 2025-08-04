@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,6 +57,10 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AuthenticationService.cs",
@@ -66,8 +70,7 @@
               "RelativeToolTip": "Services\\AuthenticationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T06:36:14.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T06:36:14.441Z"
             },
             {
               "$type": "Document",
@@ -104,8 +107,7 @@
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T21:01:06.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T21:01:06.838Z"
             },
             {
               "$type": "Document",
@@ -117,8 +119,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:54:55.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T19:54:55.106Z"
             },
             {
               "$type": "Document",
@@ -130,8 +131,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T12:11:13.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T12:11:13.953Z"
             },
             {
               "$type": "Document",
@@ -143,8 +143,7 @@
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwB0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:55:43.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T19:55:43.432Z"
             },
             {
               "$type": "Document",
