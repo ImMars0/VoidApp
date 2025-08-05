@@ -1,0 +1,27 @@
+# === Backend (C#/.NET) ===
+backend/bin/
+backend/obj/
+*.user
+*.suo
+*.vs/
+*.db
+*.db-shm
+*.db-wal
+
+# === Frontend (Node.js/React) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.cache/
+frontend/coverage/
+
+# === IDE/Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === System ===
+.DS_Store
+Thumbs.db
